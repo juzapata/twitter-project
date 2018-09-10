@@ -3,4 +3,16 @@
   width: 30%;
   border: 1px solid black;
   margin-bottom: 5px;
-  }
+}
+
+.yellow-font{
+  color: yellow;
+}
+
+.red-font{
+  color: red;
+}
+
+.blue-font{
+  color: blue;
+}
