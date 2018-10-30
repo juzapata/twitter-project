@@ -1,10 +1,22 @@
+body {
+  background-image: url('../twitter-project/birds.jpeg');
+}
 .post-box{
   height: 30%;
   width: 30%;
   border: 1px solid black;
   margin-bottom: 5px;
+  word-wrap: break-word;
 }
 
+.twiiter-blue {
+  background-color: #55ACEF;
+}
+
+.button-search{
+  color: white !important; 
+  border-color: white
+}
 .yellow-font{
   color: yellow;
 }
