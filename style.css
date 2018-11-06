@@ -1,9 +1,30 @@
 body {
   background-image: url('../twitter-project/birds.jpeg');
 }
+
+.user-box-class{
+  height: 400px;
+  width: 300px;
+  background-color: red;
+}
+
+.icon-user-1 {
+  color: white;
+  font-size: 100px;
+}
+
+.text-area-class{
+  width: 500px;
+}
 .post-box{
   height: 30%;
-  width: 30%;
+  border: 1px solid black;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.time-box {
+  height: 13%;
   border: 1px solid black;
   margin-bottom: 5px;
   word-wrap: break-word;
@@ -27,4 +48,24 @@ body {
 
 .blue-font{
   color: blue;
+}
+
+.tweet-button-class{
+  color: white;
+  border: solid 1px white;
+  border-radius: 30%;
+}
+
+.disabled-button {
+  color: transparent;
+  border: solid 1px transparent;
+  border-radius: 30%;
+}
+
+.counter-style{
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border: solid 1px black;
+  border-radius: 100%;
 }
